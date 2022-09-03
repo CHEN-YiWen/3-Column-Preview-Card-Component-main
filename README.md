@@ -1,1 +1,0 @@
-# 3-Column-Preview-Card-Component-main
