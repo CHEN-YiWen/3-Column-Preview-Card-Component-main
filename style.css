@@ -92,24 +92,19 @@ a{
 
 a:hover{
     font-weight: 400;
+    border: solid var(--Transparent-white) 2px;
+    color: var(--Transparent-white);
 }
 .plan-1 a:hover{
-    border: solid var(--Transparent-white) 2px;
     background-color: var(--Bright-orange);
-    color: var(--Transparent-white);
 }
 
 .plan-2 a:hover{
-    border: solid var(--Transparent-white) 2px;
     background-color: var(--Dark-cyan);
-    color: var(--Transparent-white);
 }
 
 .plan-3 a:hover{
-    border: solid var(--Transparent-white) 2px;
     background-color: var(--Very-dark-cyan);
-    color: var(--Transparent-white);
-
 }
 
 @media screen and (min-width: 900px){
@@ -118,8 +113,6 @@ a:hover{
         align-items: center;
     }
     .container{
-        margin-top: auto;
-        margin-bottom: auto;
         margin: auto;
         flex-direction: row;
         max-width: 1440px;
